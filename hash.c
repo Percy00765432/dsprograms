@@ -5,7 +5,7 @@ int hashTable[SIZE];
 
 void init() {
     for (int i = 0; i < SIZE; i++)
-        hashTable[i] = -1; // -1 indicates an empty slot
+        hashTable[i] = -1;
 }
 
 int hash(int key) {
